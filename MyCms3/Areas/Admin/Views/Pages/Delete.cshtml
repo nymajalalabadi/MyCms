@@ -1,0 +1,82 @@
+﻿@model DataLayer.Page
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>یا از حدف این خبر مطمئن هستی؟؟</h3>
+<div>
+    <h4>Page</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GroupPage.GroupTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GroupPage.GroupTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vist)
+        </dd>
+
+        <dt>
+            <img src="~/PageImages/@Model.ImageName" class="thumbnail" style="max-width:150px" />
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImageName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShowInslider)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShowInslider)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="حدف" class="btn btn-danger" /> |
+            @Html.ActionLink("بازگشت", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCms3", "MyCms3\MyCms3.csproj", "{A24FBD26-0EB5-4057-933E-BA6D81520AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{1766CD33-455C-499F-AFEF-2206CCC7A4CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24FBD26-0EB5-4057-933E-BA6D81520AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24FBD26-0EB5-4057-933E-BA6D81520AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24FBD26-0EB5-4057-933E-BA6D81520AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24FBD26-0EB5-4057-933E-BA6D81520AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1766CD33-455C-499F-AFEF-2206CCC7A4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1766CD33-455C-499F-AFEF-2206CCC7A4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1766CD33-455C-499F-AFEF-2206CCC7A4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1766CD33-455C-499F-AFEF-2206CCC7A4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C58FA2D5-1066-4EFF-864A-7FFB7329EE5C}
+	EndGlobalSection
+EndGlobal
